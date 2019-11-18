@@ -52,11 +52,11 @@ restService.post("/audio", function(req, res) {
     //Speech Synthesis Markup Language 
     case "spider":
       speech =
-        '<speak><audio src="https://actions.google.com/sounds/v1/cartoon/slide_whistle.ogg">did not get your audio file</audio></speak>';
+        '<speak><audio src="gs://music-yvilab.appspot.com/playlist/funny/spider.mp3">did not get your audio file</audio></speak>';
       break;
     case "the owl":
       speech =
-        '<speak><audio clipBegin="1s" clipEnd="3s" src="https://actions.google.com/sounds/v1/cartoon/slide_whistle.ogg">did not get your audio file</audio></speak>';
+        '<speak><audio  src="gs://music-yvilab.appspot.com/playlist/funny/the owl.mp3">did not get your audio file</audio></speak>';
       break;
     case "music three":
       speech =
